@@ -10,7 +10,7 @@
     "compile": "tsc",
     "watch": "npm run compile & npm run tsc:w",
     "start": "npm run compile & node index.js",
-    "dbsetup": "node src/shared/database/setup"
+    "dbsetup": "node src/database/setup"
   },
   "dependencies": {
     "bluebird": "3.4.6",
